@@ -1,0 +1,12 @@
+{
+  "listas": {
+    "boas praticas": [
+      "responder sem inventar",
+      "usar definicoes quando possivel",
+      "pedir dados quando faltar base"
+    ]
+  },
+  "notas": [
+    "Este sistema é simbólico: responde por dicionário + regras + memória seletiva (TSMP)."
+  ]
+}

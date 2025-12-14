@@ -1,0 +1,2 @@
+# requirements.txt
+# (vazio por enquanto; Python puro)
