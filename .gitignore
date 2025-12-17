@@ -20,3 +20,14 @@ Thumbs.db
 
 # Dados sensíveis (opcional - descomente se necessário)
 # data/*.json
+
+# Modelos / pesos (nao versionar no GitHub)
+models/
+*.pth
+*.safetensors
+
+# Backups locais
+*.bak
+
+# Pasta de rascunhos/sugestoes locais
+sugestaoGPT/

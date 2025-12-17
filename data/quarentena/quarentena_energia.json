@@ -1,0 +1,32 @@
+{
+  "conceito_raiz": "energia",
+  "timestamp": "2025-12-15T14:38:46.549704",
+  "total_candidatos": 2,
+  "status": "aguardando_validacao",
+  "candidatos": [
+    {
+      "de": "energia",
+      "para": "trabalho",
+      "tipo": "definicao",
+      "confianca": 0.95,
+      "contexto": "fisica",
+      "evidencia": "Energia é a capacidade de realizar trabalho",
+      "timestamp": "2025-12-15T14:38:46.549660",
+      "origem": "mock",
+      "validado": false,
+      "acao": null
+    },
+    {
+      "de": "energia",
+      "para": "movimento",
+      "tipo": "causa",
+      "confianca": 0.85,
+      "contexto": "fisica",
+      "evidencia": "Energia pode causar movimento em sistemas físicos",
+      "timestamp": "2025-12-15T14:38:46.549683",
+      "origem": "mock",
+      "validado": false,
+      "acao": null
+    }
+  ]
+}

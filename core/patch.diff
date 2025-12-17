@@ -1,0 +1,340 @@
+--- a/intent_parser.py
++++ b/intent_parser.py
+@@ -7,6 +7,24 @@
+     subject: str
+     payload: str = ""
+ 
++_PREFIXOS_DISCURSO = ("e ", "mas ", "entao ")
++
++def _strip_discurso(t: str) -> str:
++    """Remove marcadores de continuidade ('e', 'mas', 'então') do início.
++    Importante: isso NÃO muda o sentido, só permite que o parser reconheça padrões.
++    """
++    tt = (t or "").strip()
++    # repete para casos como: "e, então, como ..."
++    changed = True
++    while changed:
++        changed = False
++        for p in _PREFIXOS_DISCURSO:
++            if tt.startswith(p):
++                tt = tt[len(p):].strip()
++                changed = True
++                break
++    return tt
++
+ def parse_intent(user_text: str) -> Intent:
+     raw = (user_text or "").strip()
+ 
+@@ -14,45 +32,73 @@
+     if raw.lower().startswith("voce>"):
+         raw = raw.split(">", 1)[1].strip()
+ 
++    # Comandos explícitos (sempre primeiro)
+     if raw.startswith("/add"):
+         return Intent(kind="ensinar", subject="", payload=raw[len("/add"):].strip())
+-    
++
+     if raw.startswith("/graph"):
+         return Intent(kind="graph_cmd", subject="", payload=raw[len("/graph"):].strip())
+-    
++
+     if raw.startswith("/relacionar"):
+         return Intent(kind="relacionar", subject="", payload=raw[len("/relacionar"):].strip())
+ 
+-    t = normalize(raw)
++    t0 = normalize(raw)
++    t = _strip_discurso(t0)
+ 
++    # ---------- Perguntas de RELAÇÃO (2 termos) ----------
++    # "qual a relacao entre X e Y"
++    if "relacao entre " in t:
++        # Ex: "qual a relacao entre energia e trabalho" -> já normalizado
++        base = t.replace("qual a ", "").replace("qual ", "").strip()
++        base = base.replace("relacao entre ", "").strip()
++        if " e " in base:
++            x, y = base.split(" e ", 1)
++            return Intent(kind="relacao", subject=x.strip(), payload=y.strip())
++
++    # "como X se relaciona com Y"
++    if " se relaciona com " in t:
++        if t.startswith("como "):
++            base = t[len("como "):].strip()
++        else:
++            base = t
++        x, y = base.split(" se relaciona com ", 1)
++        return Intent(kind="relacao", subject=x.strip(), payload=y.strip())
++
++    # "X tem relacao com Y" / "X tem conexao com Y" / "X tem ligacao com Y"
++    for p in (" tem relacao com ", " tem conexao com ", " tem ligacao com "):
++        if p in t:
++            x, y = t.split(p, 1)
++            return Intent(kind="relacao", subject=x.strip(), payload=y.strip())
++
++    # ---------- Definição / explicação ----------
+     # Padrão "o que é X"
+     if t.startswith("o que e ") or t.startswith("oque e "):
+         return Intent(kind="definicao", subject=t.replace("o que e ", "").replace("oque e ", "").strip())
+-    
++
+     # Padrão "qual é X" ou "qual o X"
+     if t.startswith("qual e ") or t.startswith("qual o ") or t.startswith("qual a "):
+         subj = t.replace("qual e ", "").replace("qual o ", "").replace("qual a ", "").strip()
+         return Intent(kind="definicao", subject=subj)
+-    
++
+     # Padrão "defina X" ou "define X"
+     if t.startswith("defina ") or t.startswith("define "):
+         subj = t.replace("defina ", "").replace("define ", "").strip()
+         return Intent(kind="definicao", subject=subj)
+-    
++
+     # Padrão "fale sobre X", "me fale sobre X", "fala sobre X"
+     if "fale sobre " in t or "fala sobre " in t or "me fale sobre " in t:
+         subj = t.replace("me fale sobre ", "").replace("fale sobre ", "").replace("fala sobre ", "").strip()
+         # Remove artigos comuns
+         subj = subj.replace("o ", "", 1).replace("a ", "", 1).replace("os ", "", 1).replace("as ", "", 1).strip()
+         return Intent(kind="explicacao", subject=subj)
+-    
++
+     # Padrão "explica X", "explique X", "me explique X"
+     if t.startswith("explica ") or t.startswith("explique ") or "me explique " in t:
+         subj = t.replace("me explique ", "").replace("explique ", "").replace("explica ", "").strip()
+-        # Remove artigos comuns
+         subj = subj.replace("o ", "", 1).replace("a ", "", 1).replace("os ", "", 1).replace("as ", "", 1).strip()
+         return Intent(kind="explicacao", subject=subj)
+ 
++    # "como ..." (inclui casos do tipo "e como ..." por causa do strip)
+     if t.startswith("como ") or t.startswith("como fazer ") or t.startswith("como funciona "):
+         subj = t.replace("como fazer ", "").replace("como funciona ", "").replace("como ", "").strip()
+         return Intent(kind="como", subject=subj)
+@@ -65,4 +111,5 @@
+         subj = t.replace("liste ", "").replace("listar ", "").strip()
+         return Intent(kind="listar", subject=subj)
+ 
+-    return Intent(kind="desconhecida", subject=t.strip())
++    # Último recurso: mantém o texto normalizado (já sem ruído de acento/pontuação)
++    return Intent(kind="desconhecida", subject=t0.strip())
+
+--- a/dialogue_state.py
++++ b/dialogue_state.py
+@@ -14,6 +14,7 @@
+ from dataclasses import dataclass
+ from typing import List, Optional
+ from datetime import datetime
++from core.tokenizer import normalize
+ 
+ @dataclass
+ class Turno:
+@@ -186,31 +187,34 @@
+     def detectar_tipo_pergunta(texto: str) -> str:
+         """
+         Classifica tipo de pergunta por estrutura sintática.
+-        
++
+         Não interpreta "sentimento". Lê FORMA.
+-        """
+-        texto_lower = texto.lower().strip()
+-        
++        (Usa normalize() para alinhar com o parser de intent.)
++        """
++        t = normalize(texto or "")
++        texto_lower = t.strip()
++
+         # Pergunta de definição pura
+-        if texto_lower.startswith(("o que é", "qual é", "defina", "define")):
++        if texto_lower.startswith(("o que e", "qual e", "defina", "define")):
+             return "definicao"
+-        
++
+         # Pergunta de explicação (pede mais)
+-        if texto_lower.startswith(("como", "por que", "explica", "explique")):
++        if texto_lower.startswith(("como", "por que", "porque", "explica", "explique")):
+             return "explicacao"
+-        
++
+         # Pergunta de relação
+-        if "relaciona" in texto_lower or "ligação" in texto_lower or "conexão" in texto_lower:
++        if ("relaciona" in texto_lower or "relacao" in texto_lower
++            or "ligacao" in texto_lower or "conexao" in texto_lower):
+             return "relacao"
+-        
+-        # Confirmação/exploração
+-        if texto_lower.startswith(("e ", "mas ", "então ")):
++
++        # Confirmação/exploração (continuação)
++        if texto_lower.startswith(("e ", "mas ", "entao ")):
+             return "continuacao"
+-        
++
+         # Comando
+-        if not texto.endswith("?"):
++        if not (texto or "").strip().endswith("?"):
+             return "comando"
+-        
++
+         return "neutra"
+     
+     @staticmethod
+
+--- a/engine.py
++++ b/engine.py
+@@ -10,7 +10,7 @@
+ from core.session_store import get_session
+ from core.profiles import PROFILES
+ from core.tsmp import Candidate, select_top
+-from core.tokenizer import normalize
++from core.tokenizer import normalize, tokenize
+ from core.dialogue_state import EstadoDialogo, InferenciaPragmatica
+ 
+ # Controle do verbalizador RWKV (desligável a qualquer momento)
+@@ -61,8 +61,18 @@
+         fontes = prof.tsmp.fontes_permitidas
+ 
+         if "*" in fontes or "dictionary" in fontes:
+-            subject = (intent.subject or "").strip().split(" ")[0]
+-            if subject:
++            # Para dicionário, tente pegar o primeiro token "significativo" (sem artigos/stopwords).
++            subjects = []
++            if getattr(intent, "kind", "") == "relacao":
++                subjects = [intent.subject, getattr(intent, "payload", "")]
++            else:
++                subjects = [intent.subject]
++
++            for subj in subjects:
++                toks = tokenize(subj or "")
++                subject = toks[0] if toks else ""
++                if not subject:
++                    continue
+                 entry = self.dict_store.lookup(subject)
+                 if entry:
+                     forma = entry.get("forma") or subject
+@@ -112,6 +122,28 @@
+         
+         # Inferência pragmática (detecta tipo de pergunta)
+         tipo_pergunta = InferenciaPragmatica.detectar_tipo_pergunta(user_text)
++        # Resolve referências implícitas para manter continuidade (sem inventar):
++        # - "e como funciona?" -> usa topico_atual
++        # - "... se relaciona com ..." com sujeito "ela/isso" -> usa topico_atual
++        if intent.kind in {"como", "porque"} and not (intent.subject or "").strip() and estado.topico_atual:
++            intent.subject = estado.topico_atual
++
++        if intent.kind == "relacao":
++            subj_norm = normalize(intent.subject or "")
++            if (not (intent.subject or "").strip()) or subj_norm in {"ela", "ele", "isso", "isto", "essa", "esse", "aquele", "aquela"}:
++                if estado.topico_atual:
++                    intent.subject = estado.topico_atual
++
++        if intent.kind == "desconhecida" and tipo_pergunta == "continuacao" and estado.topico_atual:
++            # Se não houver um conceito claro nesta frase, conserva o tópico anterior.
++            toks = tokenize(user_text)
++            candidato = None
++            for tk in toks:
++                if self.dict_store.lookup(tk) or self.graph.get_node(normalize(tk)):
++                    candidato = tk
++                    break
++            intent.subject = candidato or estado.topico_atual
++
+ 
+         if intent.kind == "ensinar":
+             ok, msg = self._handle_add(intent.payload)
+@@ -135,8 +167,12 @@
+         cands = self._build_candidates(session_id, prof, metadata, intent)
+         ctx, scored = select_top(cands, user_text, metadata, prof.tsmp.top_k, prof.tsmp.max_chars)
+ 
++        if prof.id != "debug":
++            ctx = "\n".join([l for l in (ctx or "").splitlines() if not l.startswith("- [subsignals]")]).strip()
++
+         # Atualiza papel conversacional baseado em contexto
+-        conceito = intent.subject or None
++        toks_conc = tokenize(intent.subject or "")
++        conceito = toks_conc[0] if toks_conc else (intent.subject or None)
+         estado.papel = estado.inferir_papel(conceito)
+         
+         # Gera resposta com consciência de papel
+@@ -288,11 +324,57 @@
+         - profundidade no tópico
+         """
+         subject = (intent.subject or "").strip()
+-        head = subject.split(" ")[0] if subject else ""
++        toks_subj = tokenize(subject)
++        head = toks_subj[0] if toks_subj else ""
+ 
+         # Regra de saudação básica (ato fundador da conversa)
+         if intent.kind == "desconhecida" and head in {"oi", "ola", "olá"}:
+             return "Oi. Como posso te ajudar?"
++
++        if intent.kind == "relacao":
++            x = (intent.subject or "").strip()
++            y = (getattr(intent, "payload", "") or "").strip()
++            # Se o sujeito ainda estiver vazio, tenta usar o tópico atual (sem inventar termo novo)
++            if not x and estado.topico_atual:
++                x = estado.topico_atual
++            if not x or not y:
++                return "Me diga dois conceitos: 'qual a relação entre X e Y?'"
++
++            x_id = normalize(x)
++            y_id = normalize(y)
++
++            # Busca relações nos dois sentidos (grafo pode ser dirigido)
++            rels = self.graph.related(x_id, y_id) or []
++
++            # Se não houver relação no grafo, ainda podemos dar definições (se existirem) e pedir para ensinar a ligação.
++            def_x = self.dict_store.lookup(tokenize(x)[0]) if tokenize(x) else None
++            def_y = self.dict_store.lookup(tokenize(y)[0]) if tokenize(y) else None
++
++            out = []
++            if rels:
++                out.append(f"Relações que eu conheço entre {x} e {y}:")
++                shown = 0
++                for r in rels:
++                    if shown >= 6:
++                        break
++                    if r.get("de") == x_id:
++                        out.append(f"- {x} → {y} ({r.get('tipo')})")
++                    else:
++                        out.append(f"- {y} → {x} ({r.get('tipo')})")
++                    shown += 1
++
++                # Se papel permitir, expande 1 nível a partir do conceito principal
++                if estado.papel in ["explicadora", "exploradora"]:
++                    out.append(self._expandir_com_grafo(x_id, "explicadora"))
++                return "\n".join([p for p in out if p])
++            else:
++                base = f"Ainda não tenho uma relação registrada entre {x} e {y} no meu grafo."
++                if def_x:
++                    base += f"\n- {def_x.get('forma') or x}: {def_x.get('definicao','')}"
++                if def_y:
++                    base += f"\n- {def_y.get('forma') or y}: {def_y.get('definicao','')}"
++                base += "\nSe você quiser, você pode registrar com: /relacionar X | Y | relacionado"
++                return base
+ 
+         if intent.kind == "definicao":
+             if not head:
+@@ -338,21 +420,21 @@
+ 
+         if intent.kind == "como":
+             base = ctx if ctx else "eu ainda não tenho base suficiente no meu dicionário/conhecimento para detalhar."
+-            resp = resposta_como(subject or "isso", base)
++            resp = resposta_como(head or subject or "isso", base)
+             
+             # Explicadora/exploradora expande com relações
+-            if estado.papel == "exploradora" and subject:
+-                resp += self._expandir_com_grafo(normalize(subject), "exploradora")
++            if estado.papel == "exploradora" and head:
++                resp += self._expandir_com_grafo(normalize(head), "exploradora")
+             
+             return resp
+ 
+         if intent.kind == "porque":
+             base = ctx if ctx else "eu ainda não tenho base suficiente para justificar sem inventar."
+-            resp = resposta_porque(subject or "isso", base)
++            resp = resposta_porque(head or subject or "isso", base)
+             
+             # Exploradora busca causas no grafo
+-            if estado.papel == "exploradora" and subject:
+-                causas = self.graph.filter_edges(normalize(subject), tipo="causa")
++            if estado.papel == "exploradora" and head:
++                causas = self.graph.filter_edges(normalize(head), tipo="causa")
+                 if causas:
+                     resp += "\n\nRelações causais que conheço:\n"
+                     for c in causas[:3]:

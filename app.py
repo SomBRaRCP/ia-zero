@@ -1,12 +1,18 @@
 from core.session_store import create_session, set_profile
-from core.engine import SofiaZero
+from core.engine import Antonia
 
 def main():
-    print("SofiaZero (IA simbólica) — modo local")
-    print("Comandos: /profile <conversacional|exploratorio|trq_duro|debug> | /add palavra | classe | definicao | /exit\n")
+    print("Antonia — IA simbólica (modo local)")
+    print("Comandos:")
+    print("  /add palavra | classe | definicao - Ensinar nova palavra")
+    print("  /relacionar conceito1 | conceito2 | tipo - Criar relação no grafo")
+    print("  /graph stats - Estatísticas do grafo TRQ")
+    print("  /graph ver <conceito> - Ver nó e relações")
+    print("  /profile <nome> - Mudar perfil (conversacional|exploratorio|trq_duro|debug)")
+    print("  /exit - Sair\n")
 
     session = create_session(escopo_memoria="user:reginaldo", profile_id="conversacional")
-    bot = SofiaZero()
+    bot = Antonia()
 
     while True:
         user = input("Você> ").strip()
@@ -14,7 +20,7 @@ def main():
             continue
 
         if user.lower() in ("/exit", "/quit"):
-            print("Sofia> Até mais.")
+            print("Antonia> Até mais.")
             break
 
         if user.startswith("/profile"):
@@ -22,13 +28,13 @@ def main():
             if len(parts) >= 2:
                 pid = parts[1].strip()
                 ok = set_profile(session.session_id, pid)
-                print("Sofia>", "Profile alterado." if ok else "Profile inválido.")
+                print("Antonia>", "Profile alterado." if ok else "Profile inválido.")
             else:
-                print("Sofia> Use: /profile conversacional | exploratorio | trq_duro | debug")
+                print("Antonia> Use: /profile conversacional | exploratorio | trq_duro | debug")
             continue
 
         resp = bot.answer(user, session.session_id)
-        print("Sofia>", resp)
+        print("Antonia>", resp)
         print()
 
 if __name__ == "__main__":

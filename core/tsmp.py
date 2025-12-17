@@ -16,7 +16,10 @@ def score(query_tokens: set[str], cand: Candidate, metadata: Dict[str, Any]) -> 
     tokens = set(tokenize(cand.text))
     commons = len(tokens.intersection(query_tokens))
 
-    if commons == 0 and cand.source != "subsignals":
+    if cand.source == "subsignals" and not metadata.get("show_subsignals"):
+        return -1e9
+
+    if commons == 0:
         return -1e9
 
     sim = commons / ((len(tokens) ** 0.5) + 1e-6) if tokens else 0.0

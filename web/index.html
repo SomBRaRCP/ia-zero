@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Antonia • IA Simbólica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="title">Antonia • IA Simbólica</div>
+      <div class="badges">
+        <span class="badge" id="badge-profile">conversacional</span>
+        <label class="toggle" title="Escolher modo automaticamente pelo prompt">
+          <input type="checkbox" id="auto-mode" checked />
+          <span>auto</span>
+        </label>
+      </div>
+    </header>
+    <div class="mode-bar" id="mode-bar">
+      <button class="mode-btn" data-mode="conversacional">Conversacional</button>
+      <button class="mode-btn" data-mode="exploratorio">Exploratório</button>
+      <button class="mode-btn" data-mode="trq_duro">TRQ Puro</button>
+      <button class="mode-btn" data-mode="debug">Debug</button>
+    </div>
+    <div class="chat" id="chat"></div>
+    <form id="chat-form">
+      <textarea id="msg" placeholder="Digite sua pergunta..." rows="1"></textarea>
+      <button type="submit" class="send">Enviar</button>
+    </form>
+    <div class="status" id="status">Pronto para conversar</div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

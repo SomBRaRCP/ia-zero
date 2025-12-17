@@ -1,0 +1,7118 @@
+{
+  "nodos": {
+    "energia": {
+      "id": "energia",
+      "definicao_curta": "capacidade de realizar trabalho",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "trabalho": {
+      "id": "trabalho",
+      "definicao_curta": "força aplicada sobre distância",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "massa": {
+      "id": "massa",
+      "definicao_curta": "quantidade de matéria em um corpo",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "velocidade": {
+      "id": "velocidade",
+      "definicao_curta": "taxa de variação da posição em relação ao tempo",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "filosofia": {
+      "id": "filosofia",
+      "definicao_curta": "estudo das questões fundamentais sobre existência, conhecimento, valores e razão",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "epistemologia": {
+      "id": "epistemologia",
+      "definicao_curta": "ramo da filosofia que estuda a natureza, origem e limites do conhecimento",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "etica": {
+      "id": "etica",
+      "definicao_curta": "ramo da filosofia que estuda a moralidade e os princípios do bem e do mal",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "numero": {
+      "id": "numero",
+      "definicao_curta": "entidade abstrata que representa quantidade ou ordem",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "conjunto": {
+      "id": "conjunto",
+      "definicao_curta": "coleção bem definida de objetos matemáticos",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "celula": {
+      "id": "celula",
+      "definicao_curta": "unidade básica estrutural e funcional dos seres vivos",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "dna": {
+      "id": "dna",
+      "definicao_curta": "molécula que carrega a informação genética dos seres vivos",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "teoria": {
+      "id": "teoria",
+      "definicao_curta": "conjunto organizado de princípios que explica fenômenos",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "hipotese": {
+      "id": "hipotese",
+      "definicao_curta": "proposição testável que explica provisoriamente um fenômeno",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "relatividade": {
+      "id": "relatividade",
+      "definicao_curta": "teoria de Einstein que relaciona espaço, tempo, massa e energia",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "evolucao": {
+      "id": "evolucao",
+      "definicao_curta": "teoria de Darwin sobre mudança das espécies ao longo do tempo",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "quantica": {
+      "id": "quantica",
+      "definicao_curta": "teoria que descreve o comportamento de partículas subatômicas",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "platao": {
+      "id": "platao",
+      "definicao_curta": "filósofo grego, discípulo de Sócrates, autor da Teoria das Ideias",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "aristoteles": {
+      "id": "aristoteles",
+      "definicao_curta": "filósofo grego, discípulo de Platão, fundador da lógica formal",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "kant": {
+      "id": "kant",
+      "definicao_curta": "filósofo alemão, autor da Crítica da Razão Pura",
+      "peso": {
+        "estabilidade": 1.0,
+        "confianca": 1.0
+      },
+      "origem": "humano",
+      "regiao": {
+        "nome": "geral",
+        "campo": "humano",
+        "nivel": 1
+      }
+    },
+    "computacao": {
+      "id": "computacao",
+      "definicao_curta": "área que estuda como representar, processar e transmitir informação usando sistemas computacionais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "tecnologia da informacao": {
+      "id": "tecnologia da informacao",
+      "definicao_curta": "conjunto de recursos e práticas para criar, armazenar, processar e proteger informações em sistemas digitais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "hardware": {
+      "id": "hardware",
+      "definicao_curta": "parte física de um sistema computacional (componentes eletrônicos e dispositivos)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "software": {
+      "id": "software",
+      "definicao_curta": "conjunto de programas e dados que instruem o hardware a executar tarefas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "computador": {
+      "id": "computador",
+      "definicao_curta": "máquina programável capaz de executar instruções, processar dados e produzir resultados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 1
+      }
+    },
+    "sistema operacional": {
+      "id": "sistema operacional",
+      "definicao_curta": "software base que gerencia hardware e fornece serviços para aplicativos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 1
+      }
+    },
+    "rede de computadores": {
+      "id": "rede de computadores",
+      "definicao_curta": "interconexão de dispositivos para troca de dados e compartilhamento de recursos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 1
+      }
+    },
+    "banco de dados": {
+      "id": "banco de dados",
+      "definicao_curta": "coleção organizada de dados acessada e gerenciada por um sistema",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 1
+      }
+    },
+    "seguranca da informacao": {
+      "id": "seguranca da informacao",
+      "definicao_curta": "práticas para proteger informações contra acesso, alteração ou indisponibilidade indevida",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 1
+      }
+    },
+    "desenvolvimento de software": {
+      "id": "desenvolvimento de software",
+      "definicao_curta": "processo de projetar, construir, testar e manter programas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 1
+      }
+    },
+    "computacao em nuvem": {
+      "id": "computacao em nuvem",
+      "definicao_curta": "entrega de recursos computacionais sob demanda via rede (internet)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "nuvem",
+        "nivel": 1
+      }
+    },
+    "cpu": {
+      "id": "cpu",
+      "definicao_curta": "unidade central de processamento que executa instruções e coordena operações do computador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "gpu": {
+      "id": "gpu",
+      "definicao_curta": "processador especializado em operações paralelas, muito usado para gráficos e computação acelerada",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "memoria ram": {
+      "id": "memoria ram",
+      "definicao_curta": "memória volátil usada para armazenar dados e programas em execução",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "armazenamento": {
+      "id": "armazenamento",
+      "definicao_curta": "mídia para guardar dados de forma persistente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "ssd": {
+      "id": "ssd",
+      "definicao_curta": "dispositivo de armazenamento em memória flash, geralmente mais rápido que HDD",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "hdd": {
+      "id": "hdd",
+      "definicao_curta": "disco rígido magnético para armazenamento persistente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "placa mae": {
+      "id": "placa mae",
+      "definicao_curta": "placa principal que conecta e integra componentes do computador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "chipset": {
+      "id": "chipset",
+      "definicao_curta": "conjunto de controladores na placa-mãe que organiza comunicação entre componentes",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "barramento": {
+      "id": "barramento",
+      "definicao_curta": "canal de comunicação para transferência de dados entre componentes",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "pci express": {
+      "id": "pci express",
+      "definicao_curta": "barramento de alta velocidade usado para placas de expansão",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "usb": {
+      "id": "usb",
+      "definicao_curta": "padrão de conexão para periféricos e transferência de dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "sata": {
+      "id": "sata",
+      "definicao_curta": "interface comum para conectar dispositivos de armazenamento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "cache": {
+      "id": "cache",
+      "definicao_curta": "memória rápida próxima ao processador para reduzir tempo de acesso a dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "registrador": {
+      "id": "registrador",
+      "definicao_curta": "pequena memória interna da CPU para armazenar valores temporários",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "clock": {
+      "id": "clock",
+      "definicao_curta": "sinal que sincroniza operações digitais e define ciclos do processador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "arquitetura de computador": {
+      "id": "arquitetura de computador",
+      "definicao_curta": "modelo de organização de hardware e instruções de um sistema computacional",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "x86": {
+      "id": "x86",
+      "definicao_curta": "família de arquiteturas de CPU compatíveis com o conjunto de instruções x86",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "arm": {
+      "id": "arm",
+      "definicao_curta": "família de arquiteturas de CPU eficiente em energia, comum em dispositivos móveis",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "firmware": {
+      "id": "firmware",
+      "definicao_curta": "software embutido que controla hardware em baixo nível",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "bios": {
+      "id": "bios",
+      "definicao_curta": "firmware tradicional de inicialização do computador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "uefi": {
+      "id": "uefi",
+      "definicao_curta": "firmware moderno de inicialização, sucessor do BIOS",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "periferico": {
+      "id": "periferico",
+      "definicao_curta": "dispositivo externo de entrada/saída conectado ao computador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "teclado": {
+      "id": "teclado",
+      "definicao_curta": "periférico de entrada para digitação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "mouse": {
+      "id": "mouse",
+      "definicao_curta": "periférico de entrada apontador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "monitor": {
+      "id": "monitor",
+      "definicao_curta": "periférico de saída para exibir imagens",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "fonte de alimentacao": {
+      "id": "fonte de alimentacao",
+      "definicao_curta": "componente que converte energia elétrica para alimentar o computador",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "transistor": {
+      "id": "transistor",
+      "definicao_curta": "componente semicondutor que atua como chave/amplificador em circuitos eletrônicos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "circuito integrado": {
+      "id": "circuito integrado",
+      "definicao_curta": "conjunto de componentes eletrônicos miniaturizados em um único chip",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "semicondutor": {
+      "id": "semicondutor",
+      "definicao_curta": "material com condutividade intermediária, base da eletrônica moderna",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "hardware",
+        "nivel": 2
+      }
+    },
+    "kernel": {
+      "id": "kernel",
+      "definicao_curta": "núcleo do sistema operacional responsável por gerenciar recursos e chamadas de sistema",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "driver": {
+      "id": "driver",
+      "definicao_curta": "software que permite ao sistema operacional controlar um dispositivo de hardware",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "processo": {
+      "id": "processo",
+      "definicao_curta": "instância de um programa em execução com recursos próprios",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "thread": {
+      "id": "thread",
+      "definicao_curta": "linha de execução dentro de um processo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "escalonamento": {
+      "id": "escalonamento",
+      "definicao_curta": "mecanismo que decide a ordem e o tempo de uso da CPU por processos/threads",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "memoria virtual": {
+      "id": "memoria virtual",
+      "definicao_curta": "abstração que amplia a memória aparente usando paginação e armazenamento secundário",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "paginacao": {
+      "id": "paginacao",
+      "definicao_curta": "técnica de gerenciamento de memória que divide memória em páginas e quadros",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "swap": {
+      "id": "swap",
+      "definicao_curta": "área em disco usada para apoiar a memória virtual",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "sistema de arquivos": {
+      "id": "sistema de arquivos",
+      "definicao_curta": "estrutura e regras para organizar e acessar arquivos no armazenamento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "permissao": {
+      "id": "permissao",
+      "definicao_curta": "regras que definem quem pode ler, escrever ou executar recursos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "usuario": {
+      "id": "usuario",
+      "definicao_curta": "identidade que utiliza o sistema e possui permissões",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "grupo": {
+      "id": "grupo",
+      "definicao_curta": "conjunto de usuários para facilitar controle de permissões",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "shell": {
+      "id": "shell",
+      "definicao_curta": "interpretador de comandos que permite interação com o sistema operacional",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "terminal": {
+      "id": "terminal",
+      "definicao_curta": "interface de texto para entrada e saída de comandos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "cli": {
+      "id": "cli",
+      "definicao_curta": "interface de linha de comando (command-line interface)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "gui": {
+      "id": "gui",
+      "definicao_curta": "interface gráfica do usuário (graphical user interface)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "api": {
+      "id": "api",
+      "definicao_curta": "conjunto de regras e interfaces para integrar sistemas e componentes",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "biblioteca": {
+      "id": "biblioteca",
+      "definicao_curta": "coleção de funções reutilizáveis usada por programas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "framework": {
+      "id": "framework",
+      "definicao_curta": "conjunto de bibliotecas e padrões que acelera desenvolvimento de aplicações",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "compilador": {
+      "id": "compilador",
+      "definicao_curta": "programa que traduz código-fonte para código de máquina ou bytecode",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "interpretador": {
+      "id": "interpretador",
+      "definicao_curta": "programa que executa código lendo e processando instruções em tempo de execução",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "linguagem de programacao": {
+      "id": "linguagem de programacao",
+      "definicao_curta": "linguagem formal usada para expressar algoritmos e construir software",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "python": {
+      "id": "python",
+      "definicao_curta": "linguagem de programação de alto nível, multiparadigma, muito usada em automação e ciência de dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "java": {
+      "id": "java",
+      "definicao_curta": "linguagem de programação orientada a objetos executada geralmente em máquina virtual (JVM)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "c": {
+      "id": "c",
+      "definicao_curta": "linguagem de programação compilada, próxima do hardware, muito usada em sistemas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "javascript": {
+      "id": "javascript",
+      "definicao_curta": "linguagem de programação usada principalmente na web e em ambientes server-side",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "typescript": {
+      "id": "typescript",
+      "definicao_curta": "superset tipado de JavaScript que adiciona checagem de tipos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "git": {
+      "id": "git",
+      "definicao_curta": "sistema de controle de versão distribuído",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "repositorio": {
+      "id": "repositorio",
+      "definicao_curta": "local onde código e histórico de versões são armazenados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "commit": {
+      "id": "commit",
+      "definicao_curta": "registro de alterações no histórico do Git",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "branch": {
+      "id": "branch",
+      "definicao_curta": "linha paralela de desenvolvimento em um repositório",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "merge": {
+      "id": "merge",
+      "definicao_curta": "operação de combinar alterações de branches",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "teste de software": {
+      "id": "teste de software",
+      "definicao_curta": "atividade de verificar se o software funciona como esperado",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "depuracao": {
+      "id": "depuracao",
+      "definicao_curta": "processo de localizar e corrigir defeitos (bugs) no software",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "log": {
+      "id": "log",
+      "definicao_curta": "registro de eventos para observabilidade e diagnóstico",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "excecao": {
+      "id": "excecao",
+      "definicao_curta": "evento que interrompe o fluxo normal de execução e pode ser tratado pelo programa",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "container": {
+      "id": "container",
+      "definicao_curta": "isolamento leve que empacota aplicação e dependências para execução consistente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "docker": {
+      "id": "docker",
+      "definicao_curta": "plataforma popular para criar e executar containers",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "imagem docker": {
+      "id": "imagem docker",
+      "definicao_curta": "modelo imutável usado para criar containers",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "orquestracao": {
+      "id": "orquestracao",
+      "definicao_curta": "coordenação automatizada de implantação e execução de serviços",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "kubernetes": {
+      "id": "kubernetes",
+      "definicao_curta": "sistema de orquestração de containers para executar aplicações em cluster",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "sistemas",
+        "nivel": 2
+      }
+    },
+    "modelo osi": {
+      "id": "modelo osi",
+      "definicao_curta": "modelo conceitual em camadas para comunicação em redes (física até aplicação)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "tcp ip": {
+      "id": "tcp ip",
+      "definicao_curta": "conjunto de protocolos usado na internet",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "pacote": {
+      "id": "pacote",
+      "definicao_curta": "unidade de dados transmitida em redes, geralmente em camadas como IP",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "quadro": {
+      "id": "quadro",
+      "definicao_curta": "unidade de dados na camada de enlace (ex.: Ethernet)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "ip": {
+      "id": "ip",
+      "definicao_curta": "protocolo de endereçamento e roteamento na internet",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "ipv4": {
+      "id": "ipv4",
+      "definicao_curta": "versão do protocolo IP com endereços de 32 bits",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "ipv6": {
+      "id": "ipv6",
+      "definicao_curta": "versão do protocolo IP com endereços de 128 bits",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "endereco ip": {
+      "id": "endereco ip",
+      "definicao_curta": "identificador numérico de um dispositivo em uma rede IP",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "endereco mac": {
+      "id": "endereco mac",
+      "definicao_curta": "identificador físico de interface de rede (camada de enlace)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "roteador": {
+      "id": "roteador",
+      "definicao_curta": "dispositivo que encaminha pacotes entre redes diferentes",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "switch": {
+      "id": "switch",
+      "definicao_curta": "dispositivo que comuta quadros dentro de uma rede local",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "firewall": {
+      "id": "firewall",
+      "definicao_curta": "mecanismo que filtra tráfego de rede conforme regras de segurança",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "nat": {
+      "id": "nat",
+      "definicao_curta": "técnica que traduz endereços IP entre redes (ex.: privado e público)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "dns": {
+      "id": "dns",
+      "definicao_curta": "sistema que traduz nomes de domínio em endereços IP",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "nome de dominio": {
+      "id": "nome de dominio",
+      "definicao_curta": "nome legível usado para identificar serviços na internet",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "dhcp": {
+      "id": "dhcp",
+      "definicao_curta": "protocolo que atribui automaticamente endereços IP a dispositivos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "porta": {
+      "id": "porta",
+      "definicao_curta": "número lógico usado para identificar serviços em um host (TCP/UDP)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "socket": {
+      "id": "socket",
+      "definicao_curta": "ponto final de comunicação entre processos via rede",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "tcp": {
+      "id": "tcp",
+      "definicao_curta": "protocolo de transporte confiável orientado a conexão",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "udp": {
+      "id": "udp",
+      "definicao_curta": "protocolo de transporte simples sem garantia de entrega",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "http": {
+      "id": "http",
+      "definicao_curta": "protocolo de aplicação para transferência de hipermídia na web",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "https": {
+      "id": "https",
+      "definicao_curta": "HTTP sobre TLS para comunicação segura",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "tls": {
+      "id": "tls",
+      "definicao_curta": "protocolo criptográfico que fornece confidencialidade e integridade na comunicação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "latencia": {
+      "id": "latencia",
+      "definicao_curta": "tempo de atraso entre envio e recebimento de dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "largura de banda": {
+      "id": "largura de banda",
+      "definicao_curta": "capacidade de transmissão de dados por unidade de tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "ethernet": {
+      "id": "ethernet",
+      "definicao_curta": "tecnologia de rede local comutada, comum em cabos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "wifi": {
+      "id": "wifi",
+      "definicao_curta": "tecnologia de rede local sem fio",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "vpn": {
+      "id": "vpn",
+      "definicao_curta": "túnel criptografado para acesso seguro a uma rede via internet",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "sub-rede": {
+      "id": "sub-rede",
+      "definicao_curta": "segmento lógico de uma rede IP",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "cidr": {
+      "id": "cidr",
+      "definicao_curta": "notação para representar sub-redes e prefixos de roteamento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "gateway": {
+      "id": "gateway",
+      "definicao_curta": "ponto de saída de uma rede local para outra rede",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "arp": {
+      "id": "arp",
+      "definicao_curta": "protocolo para resolver endereço IP em endereço MAC em rede local",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "api rest": {
+      "id": "api rest",
+      "definicao_curta": "estilo de API que usa HTTP e recursos identificados por URLs",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "websocket": {
+      "id": "websocket",
+      "definicao_curta": "protocolo que permite comunicação bidirecional persistente sobre TCP",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "json": {
+      "id": "json",
+      "definicao_curta": "formato textual leve para troca de dados estruturados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "redes",
+        "nivel": 2
+      }
+    },
+    "sgbd": {
+      "id": "sgbd",
+      "definicao_curta": "software que cria, consulta e mantém bancos de dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "sql": {
+      "id": "sql",
+      "definicao_curta": "linguagem para definir e consultar dados em bancos relacionais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "nosql": {
+      "id": "nosql",
+      "definicao_curta": "classe de bancos de dados não-relacionais (documento, chave-valor, colunar, grafo)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "tabela": {
+      "id": "tabela",
+      "definicao_curta": "estrutura de dados em linhas e colunas em bancos relacionais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "registro": {
+      "id": "registro",
+      "definicao_curta": "linha em uma tabela representando uma entidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "coluna": {
+      "id": "coluna",
+      "definicao_curta": "campo em uma tabela que armazena um atributo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "chave primaria": {
+      "id": "chave primaria",
+      "definicao_curta": "atributo que identifica unicamente um registro",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "chave estrangeira": {
+      "id": "chave estrangeira",
+      "definicao_curta": "atributo que referencia a chave primária de outra tabela",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "indice": {
+      "id": "indice",
+      "definicao_curta": "estrutura que acelera buscas em colunas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "consulta": {
+      "id": "consulta",
+      "definicao_curta": "comando para recuperar dados de um banco",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "join": {
+      "id": "join",
+      "definicao_curta": "operação que combina dados de tabelas relacionadas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "transacao": {
+      "id": "transacao",
+      "definicao_curta": "conjunto de operações executadas como unidade lógica",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "acid": {
+      "id": "acid",
+      "definicao_curta": "conjunto de propriedades de transações: atomicidade, consistência, isolamento e durabilidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "backup": {
+      "id": "backup",
+      "definicao_curta": "cópia de segurança para recuperação de dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "replicacao": {
+      "id": "replicacao",
+      "definicao_curta": "cópia de dados entre instâncias para disponibilidade e desempenho",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "sharding": {
+      "id": "sharding",
+      "definicao_curta": "particionamento de dados em múltiplos nós para escala horizontal",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "postgresql": {
+      "id": "postgresql",
+      "definicao_curta": "SGBD relacional avançado e extensível",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "mysql": {
+      "id": "mysql",
+      "definicao_curta": "SGBD relacional popular em aplicações web",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "sqlite": {
+      "id": "sqlite",
+      "definicao_curta": "SGBD embutido leve, armazenado em arquivo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "mongodb": {
+      "id": "mongodb",
+      "definicao_curta": "banco NoSQL orientado a documentos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "redis": {
+      "id": "redis",
+      "definicao_curta": "armazenamento em memória chave-valor usado como cache e fila",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "dados",
+        "nivel": 2
+      }
+    },
+    "confidencialidade": {
+      "id": "confidencialidade",
+      "definicao_curta": "princípio de manter informação acessível apenas a quem tem permissão",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "integridade": {
+      "id": "integridade",
+      "definicao_curta": "princípio de manter informação correta e não alterada indevidamente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "disponibilidade": {
+      "id": "disponibilidade",
+      "definicao_curta": "princípio de manter sistemas e dados acessíveis quando necessários",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "autenticacao": {
+      "id": "autenticacao",
+      "definicao_curta": "processo de verificar a identidade de um usuário ou sistema",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "autorizacao": {
+      "id": "autorizacao",
+      "definicao_curta": "processo de determinar o que uma identidade autenticada pode fazer",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "controle de acesso": {
+      "id": "controle de acesso",
+      "definicao_curta": "mecanismos para aplicar autenticação e autorização",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "criptografia": {
+      "id": "criptografia",
+      "definicao_curta": "técnicas para proteger dados por transformação usando chaves",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "chave simetrica": {
+      "id": "chave simetrica",
+      "definicao_curta": "chave única usada para cifrar e decifrar dados (ex.: AES)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "chave assimetrica": {
+      "id": "chave assimetrica",
+      "definicao_curta": "par de chaves pública/privada usado em criptografia e assinaturas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "aes": {
+      "id": "aes",
+      "definicao_curta": "algoritmo de criptografia simétrica amplamente usado",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "rsa": {
+      "id": "rsa",
+      "definicao_curta": "algoritmo assimétrico baseado em fatoração de inteiros",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "ecc": {
+      "id": "ecc",
+      "definicao_curta": "criptografia de curva elíptica, eficiente para chaves menores",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "hash": {
+      "id": "hash",
+      "definicao_curta": "função que mapeia dados para um resumo fixo, difícil de inverter",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "sha256": {
+      "id": "sha256",
+      "definicao_curta": "função hash criptográfica da família SHA-2",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "salt": {
+      "id": "salt",
+      "definicao_curta": "valor aleatório adicionado a senhas antes do hash para dificultar ataques",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "assinatura digital": {
+      "id": "assinatura digital",
+      "definicao_curta": "mecanismo que garante autoria e integridade usando chave privada",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "certificado digital": {
+      "id": "certificado digital",
+      "definicao_curta": "documento que associa uma chave pública a uma identidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "pki": {
+      "id": "pki",
+      "definicao_curta": "infraestrutura de chaves públicas para emissão e validação de certificados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "jwt": {
+      "id": "jwt",
+      "definicao_curta": "token assinado usado para autenticação/autorização em APIs",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "oauth2": {
+      "id": "oauth2",
+      "definicao_curta": "protocolo para delegação de autorização entre aplicações",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "phishing": {
+      "id": "phishing",
+      "definicao_curta": "golpe que tenta enganar usuário para obter credenciais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "engenharia social": {
+      "id": "engenharia social",
+      "definicao_curta": "técnicas de manipulação humana para obter acesso ou informação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "malware": {
+      "id": "malware",
+      "definicao_curta": "software malicioso que compromete sistemas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "virus": {
+      "id": "virus",
+      "definicao_curta": "tipo de malware que se replica infectando arquivos ou sistemas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "ransomware": {
+      "id": "ransomware",
+      "definicao_curta": "malware que cifra dados e exige resgate",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "vulnerabilidade": {
+      "id": "vulnerabilidade",
+      "definicao_curta": "falha que pode ser explorada para comprometer um sistema",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "exploit": {
+      "id": "exploit",
+      "definicao_curta": "método/código que aproveita uma vulnerabilidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "patch": {
+      "id": "patch",
+      "definicao_curta": "correção de software para eliminar vulnerabilidades ou bugs",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "zero day": {
+      "id": "zero day",
+      "definicao_curta": "vulnerabilidade desconhecida do fornecedor e sem patch disponível",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "2fa": {
+      "id": "2fa",
+      "definicao_curta": "autenticação em dois fatores para reforçar segurança de acesso",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "seguranca",
+        "nivel": 2
+      }
+    },
+    "controle de versao": {
+      "id": "controle de versao",
+      "definicao_curta": "prática e ferramentas para registrar e gerenciar mudanças em código ao longo do tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "devops": {
+      "id": "devops",
+      "definicao_curta": "cultura e práticas que integram desenvolvimento e operações para entregar software com rapidez e estabilidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "cicd": {
+      "id": "cicd",
+      "definicao_curta": "automação de integração contínua e entrega/implantação contínua",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "pipeline": {
+      "id": "pipeline",
+      "definicao_curta": "sequência automatizada de etapas para build, teste e deploy",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "observabilidade": {
+      "id": "observabilidade",
+      "definicao_curta": "capacidade de entender o estado de um sistema por métricas, logs e rastreamentos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "monitoramento": {
+      "id": "monitoramento",
+      "definicao_curta": "coleta e análise de métricas e alertas para manter sistemas saudáveis",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "virtualizacao": {
+      "id": "virtualizacao",
+      "definicao_curta": "técnica para executar múltiplos sistemas isolados no mesmo hardware",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "maquina virtual": {
+      "id": "maquina virtual",
+      "definicao_curta": "ambiente virtualizado que simula um computador completo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "hypervisor": {
+      "id": "hypervisor",
+      "definicao_curta": "software/camada que cria e gerencia máquinas virtuais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "iaas": {
+      "id": "iaas",
+      "definicao_curta": "infraestrutura como serviço: VMs, redes e armazenamento sob demanda",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "paas": {
+      "id": "paas",
+      "definicao_curta": "plataforma como serviço: ambiente gerenciado para rodar aplicações",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "saas": {
+      "id": "saas",
+      "definicao_curta": "software como serviço: aplicação pronta entregue via web",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "serverless": {
+      "id": "serverless",
+      "definicao_curta": "modelo em que o provedor gerencia infraestrutura e você executa funções sob demanda",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "balanceador de carga": {
+      "id": "balanceador de carga",
+      "definicao_curta": "componente que distribui tráfego entre servidores para desempenho e disponibilidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "escalabilidade": {
+      "id": "escalabilidade",
+      "definicao_curta": "capacidade de aumentar recursos para lidar com mais carga",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "alta disponibilidade": {
+      "id": "alta disponibilidade",
+      "definicao_curta": "projeto para manter serviços operando mesmo com falhas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "engenharia",
+        "nivel": 2
+      }
+    },
+    "fisica": {
+      "id": "fisica",
+      "definicao_curta": "ciência que estuda a natureza, suas leis e fenômenos (matéria, energia, espaço e tempo)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "grandeza fisica": {
+      "id": "grandeza fisica",
+      "definicao_curta": "propriedade mensurável (ex.: massa, tempo, temperatura) expressa por número e unidade",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "unidade": {
+      "id": "unidade",
+      "definicao_curta": "padrão para medir uma grandeza física",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "sistema internacional": {
+      "id": "sistema internacional",
+      "definicao_curta": "conjunto padrão de unidades (SI) usado em ciência e engenharia",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "matematica": {
+      "id": "matematica",
+      "definicao_curta": "linguagem e conjunto de métodos para descrever quantidades, estruturas e relações",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "vetor": {
+      "id": "vetor",
+      "definicao_curta": "objeto com magnitude e direção, usado para representar grandezas como velocidade e força",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "matriz": {
+      "id": "matriz",
+      "definicao_curta": "arranjo retangular de números usado para representar transformações e sistemas lineares",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "derivada": {
+      "id": "derivada",
+      "definicao_curta": "taxa de variação instantânea de uma função",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "integral": {
+      "id": "integral",
+      "definicao_curta": "acumulação contínua; pode representar área, trabalho ou quantidade total",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "probabilidade": {
+      "id": "probabilidade",
+      "definicao_curta": "medida de chance de um evento ocorrer",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "funcao": {
+      "id": "funcao",
+      "definicao_curta": "relação que associa cada entrada a uma saída",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "exponencial": {
+      "id": "exponencial",
+      "definicao_curta": "função que cresce/decai proporcionalmente ao valor atual",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "logaritmo": {
+      "id": "logaritmo",
+      "definicao_curta": "inverso da exponencial; útil para escalas e relações multiplicativas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "seno": {
+      "id": "seno",
+      "definicao_curta": "função trigonométrica associada a ondas e triângulos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "cosseno": {
+      "id": "cosseno",
+      "definicao_curta": "função trigonométrica associada a ondas e triângulos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "constante pi": {
+      "id": "constante pi",
+      "definicao_curta": "constante matemática aproximadamente 3,14159, relacionada a círculos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "constante e": {
+      "id": "constante e",
+      "definicao_curta": "constante aproximadamente 2,71828, base do logaritmo natural",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "calculo": {
+      "id": "calculo",
+      "definicao_curta": "ramo da matemática que estuda limites, derivadas e integrais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "matematica",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    },
+    "metro": {
+      "id": "metro",
+      "definicao_curta": "unidade SI de comprimento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "segundo": {
+      "id": "segundo",
+      "definicao_curta": "unidade SI de tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "quilograma": {
+      "id": "quilograma",
+      "definicao_curta": "unidade SI de massa",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "newton": {
+      "id": "newton",
+      "definicao_curta": "unidade SI de força (kg·m/s²)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "joule": {
+      "id": "joule",
+      "definicao_curta": "unidade SI de energia e trabalho (N·m)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "watt": {
+      "id": "watt",
+      "definicao_curta": "unidade SI de potência (J/s)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "pascal": {
+      "id": "pascal",
+      "definicao_curta": "unidade SI de pressão (N/m²)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "hertz": {
+      "id": "hertz",
+      "definicao_curta": "unidade SI de frequência (1/s)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "coulomb": {
+      "id": "coulomb",
+      "definicao_curta": "unidade SI de carga elétrica (A·s)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "volt": {
+      "id": "volt",
+      "definicao_curta": "unidade SI de potencial elétrico (J/C)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "ohm": {
+      "id": "ohm",
+      "definicao_curta": "unidade SI de resistência elétrica (V/A)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "tesla": {
+      "id": "tesla",
+      "definicao_curta": "unidade SI de campo magnético",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "unidades",
+        "nivel": 2
+      }
+    },
+    "forca": {
+      "id": "forca",
+      "definicao_curta": "interação que pode alterar o movimento de um corpo (causa aceleração)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "peso": {
+      "id": "peso",
+      "definicao_curta": "força gravitacional exercida sobre um corpo (P = m·g)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "aceleracao": {
+      "id": "aceleracao",
+      "definicao_curta": "taxa de variação da velocidade no tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "posicao": {
+      "id": "posicao",
+      "definicao_curta": "localização de um corpo em um referencial",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "deslocamento": {
+      "id": "deslocamento",
+      "definicao_curta": "variação da posição entre dois pontos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "energia cinetica": {
+      "id": "energia cinetica",
+      "definicao_curta": "energia associada ao movimento (proporcional a v²)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "energia potencial": {
+      "id": "energia potencial",
+      "definicao_curta": "energia associada à posição em um campo (ex.: gravitacional)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "potencia": {
+      "id": "potencia",
+      "definicao_curta": "taxa de realização de trabalho ou transferência de energia por tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "impulso": {
+      "id": "impulso",
+      "definicao_curta": "integral da força no tempo; relaciona-se à variação do momento linear",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "quantidade de movimento": {
+      "id": "quantidade de movimento",
+      "definicao_curta": "momento linear; produto m·v (vetorial)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "torque": {
+      "id": "torque",
+      "definicao_curta": "tendência de uma força produzir rotação (momento de força)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "momento angular": {
+      "id": "momento angular",
+      "definicao_curta": "quantidade relacionada à rotação e conservada em sistemas isolados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "lei de newton": {
+      "id": "lei de newton",
+      "definicao_curta": "leis que descrevem a relação entre força e movimento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "inercia": {
+      "id": "inercia",
+      "definicao_curta": "tendência de manter o estado de movimento na ausência de força resultante",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "atrito": {
+      "id": "atrito",
+      "definicao_curta": "força que se opõe ao movimento relativo entre superfícies",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "mola": {
+      "id": "mola",
+      "definicao_curta": "elemento elástico que exerce força proporcional à deformação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "oscilacao": {
+      "id": "oscilacao",
+      "definicao_curta": "movimento repetitivo em torno de uma posição de equilíbrio",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "mecanica",
+        "nivel": 2
+      }
+    },
+    "onda": {
+      "id": "onda",
+      "definicao_curta": "perturbação que se propaga transportando energia e informação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "frequencia": {
+      "id": "frequencia",
+      "definicao_curta": "número de ciclos por segundo de uma oscilação (Hz)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "periodo": {
+      "id": "periodo",
+      "definicao_curta": "tempo de um ciclo completo de uma oscilação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "comprimento de onda": {
+      "id": "comprimento de onda",
+      "definicao_curta": "distância entre cristas sucessivas de uma onda",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "amplitude": {
+      "id": "amplitude",
+      "definicao_curta": "medida máxima de deslocamento em uma oscilação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "som": {
+      "id": "som",
+      "definicao_curta": "onda mecânica que se propaga em meios materiais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "luz": {
+      "id": "luz",
+      "definicao_curta": "radiação eletromagnética visível",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "espectro eletromagnetico": {
+      "id": "espectro eletromagnetico",
+      "definicao_curta": "faixa completa de frequências da radiação eletromagnética",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "reflexao": {
+      "id": "reflexao",
+      "definicao_curta": "mudança de direção de uma onda ao bater em uma superfície",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "refracao": {
+      "id": "refracao",
+      "definicao_curta": "mudança de direção e velocidade de uma onda ao passar de um meio para outro",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "interferencia": {
+      "id": "interferencia",
+      "definicao_curta": "superposição de ondas que gera reforço ou cancelamento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "difracao": {
+      "id": "difracao",
+      "definicao_curta": "espalhamento de ondas ao contornar obstáculos ou passar por aberturas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "polarizacao": {
+      "id": "polarizacao",
+      "definicao_curta": "orientação da oscilação de uma onda transversal (ex.: luz)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "ondas",
+        "nivel": 2
+      }
+    },
+    "temperatura": {
+      "id": "temperatura",
+      "definicao_curta": "medida relacionada à energia cinética média das partículas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "calor": {
+      "id": "calor",
+      "definicao_curta": "energia transferida devido a diferença de temperatura",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "energia interna": {
+      "id": "energia interna",
+      "definicao_curta": "energia total microscópica de um sistema (cinética e potencial das partículas)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "entropia": {
+      "id": "entropia",
+      "definicao_curta": "medida de dispersão de energia e número de microestados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "pressao": {
+      "id": "pressao",
+      "definicao_curta": "força por área exercida por um fluido",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "volume": {
+      "id": "volume",
+      "definicao_curta": "espaço ocupado por um corpo ou fluido",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "gas ideal": {
+      "id": "gas ideal",
+      "definicao_curta": "modelo de gás com partículas sem volume e sem interações, obedecendo PV=nRT",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "primeira lei da termodinamica": {
+      "id": "primeira lei da termodinamica",
+      "definicao_curta": "princípio de conservação de energia: ΔU = Q − W",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "segunda lei da termodinamica": {
+      "id": "segunda lei da termodinamica",
+      "definicao_curta": "princípio que indica aumento da entropia em processos irreversíveis",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "equilibrio termico": {
+      "id": "equilibrio termico",
+      "definicao_curta": "estado em que não há fluxo líquido de calor entre sistemas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "maquina termica": {
+      "id": "maquina termica",
+      "definicao_curta": "dispositivo que converte calor em trabalho",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "eficiencia": {
+      "id": "eficiencia",
+      "definicao_curta": "razão entre trabalho útil e energia fornecida",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "termodinamica",
+        "nivel": 2
+      }
+    },
+    "carga eletrica": {
+      "id": "carga eletrica",
+      "definicao_curta": "propriedade que origina interações elétricas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "corrente eletrica": {
+      "id": "corrente eletrica",
+      "definicao_curta": "fluxo de carga por unidade de tempo (A)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "tensao": {
+      "id": "tensao",
+      "definicao_curta": "diferença de potencial elétrico entre dois pontos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "resistencia eletrica": {
+      "id": "resistencia eletrica",
+      "definicao_curta": "oposição à passagem de corrente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "capacitancia": {
+      "id": "capacitancia",
+      "definicao_curta": "capacidade de armazenar carga por unidade de tensão",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "indutancia": {
+      "id": "indutancia",
+      "definicao_curta": "tendência de um circuito resistir a variações de corrente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "campo eletrico": {
+      "id": "campo eletrico",
+      "definicao_curta": "campo que exerce força sobre cargas elétricas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "potencial eletrico": {
+      "id": "potencial eletrico",
+      "definicao_curta": "energia potencial por unidade de carga",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "campo magnetico": {
+      "id": "campo magnetico",
+      "definicao_curta": "campo associado a cargas em movimento e ímãs",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "forca de lorentz": {
+      "id": "forca de lorentz",
+      "definicao_curta": "força sobre carga em movimento em campos elétrico e magnético",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "lei de ohm": {
+      "id": "lei de ohm",
+      "definicao_curta": "relação V = R·I em condutores ôhmicos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "onda eletromagnetica": {
+      "id": "onda eletromagnetica",
+      "definicao_curta": "onda composta por campos elétrico e magnético oscilantes (ex.: luz)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "maxwell": {
+      "id": "maxwell",
+      "definicao_curta": "conjunto de equações que descrevem eletricidade e magnetismo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "condutor": {
+      "id": "condutor",
+      "definicao_curta": "material que permite movimento fácil de cargas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "isolante": {
+      "id": "isolante",
+      "definicao_curta": "material que dificulta movimento de cargas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "circuito": {
+      "id": "circuito",
+      "definicao_curta": "caminho fechado por onde corrente pode circular",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "eletromagnetismo",
+        "nivel": 2
+      }
+    },
+    "relatividade restrita": {
+      "id": "relatividade restrita",
+      "definicao_curta": "teoria que descreve espaço-tempo para referenciais inerciais e velocidades próximas à da luz",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "espaco-tempo": {
+      "id": "espaco-tempo",
+      "definicao_curta": "estrutura de quatro dimensões que unifica espaço e tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "velocidade da luz": {
+      "id": "velocidade da luz",
+      "definicao_curta": "constante física c, limite superior de velocidade para informação no vácuo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "dilatacao do tempo": {
+      "id": "dilatacao do tempo",
+      "definicao_curta": "efeito relativístico em que o tempo passa diferente para observadores em movimento relativo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "contracao do comprimento": {
+      "id": "contracao do comprimento",
+      "definicao_curta": "encurtamento relativístico de objetos na direção do movimento",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "equivalencia massa-energia": {
+      "id": "equivalencia massa-energia",
+      "definicao_curta": "princípio de que massa e energia são formas equivalentes (E=mc²)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "relatividade geral": {
+      "id": "relatividade geral",
+      "definicao_curta": "teoria da gravidade como curvatura do espaço-tempo causada por energia e massa",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "gravidade": {
+      "id": "gravidade",
+      "definicao_curta": "interação fundamental associada à atração entre massas e à curvatura do espaço-tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "campo gravitacional": {
+      "id": "campo gravitacional",
+      "definicao_curta": "descrição de como a gravidade atua em torno de uma massa",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "buraco negro": {
+      "id": "buraco negro",
+      "definicao_curta": "região do espaço-tempo com gravidade tão intensa que nada escapa após o horizonte",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "horizonte de eventos": {
+      "id": "horizonte de eventos",
+      "definicao_curta": "fronteira de um buraco negro além da qual não é possível retornar",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "onda gravitacional": {
+      "id": "onda gravitacional",
+      "definicao_curta": "ondulação do espaço-tempo gerada por massas aceleradas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "mecanica quantica": {
+      "id": "mecanica quantica",
+      "definicao_curta": "teoria que descreve matéria e radiação em escalas atômicas e subatômicas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "quantizacao": {
+      "id": "quantizacao",
+      "definicao_curta": "característica de grandezas assumirem valores discretos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "foton": {
+      "id": "foton",
+      "definicao_curta": "quantum da radiação eletromagnética",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "dualidade onda-particula": {
+      "id": "dualidade onda-particula",
+      "definicao_curta": "ideia de que entidades quânticas exibem comportamento de onda e de partícula",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "funcao de onda": {
+      "id": "funcao de onda",
+      "definicao_curta": "objeto matemático que descreve o estado quântico de um sistema",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "superposicao": {
+      "id": "superposicao",
+      "definicao_curta": "capacidade de um sistema quântico estar em combinação de estados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "medicao": {
+      "id": "medicao",
+      "definicao_curta": "processo de obtenção de um resultado clássico a partir de um estado quântico",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "principio da incerteza": {
+      "id": "principio da incerteza",
+      "definicao_curta": "limite fundamental para conhecer simultaneamente certas grandezas (ex.: posição e momento)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "spin": {
+      "id": "spin",
+      "definicao_curta": "momento angular intrínseco de partículas",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "nivel de energia": {
+      "id": "nivel de energia",
+      "definicao_curta": "valores discretos de energia permitidos em sistemas quânticos",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "atomo": {
+      "id": "atomo",
+      "definicao_curta": "unidade básica de matéria composta por núcleo e elétrons",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "eletron": {
+      "id": "eletron",
+      "definicao_curta": "partícula subatômica com carga negativa",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "proton": {
+      "id": "proton",
+      "definicao_curta": "partícula subatômica com carga positiva no núcleo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "neutron": {
+      "id": "neutron",
+      "definicao_curta": "partícula subatômica neutra no núcleo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "fisica",
+        "campo": "moderna",
+        "nivel": 2
+      }
+    },
+    "sensor": {
+      "id": "sensor",
+      "definicao_curta": "dispositivo que mede uma grandeza física e gera um sinal",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "sinal": {
+      "id": "sinal",
+      "definicao_curta": "variação de uma grandeza (ex.: tensão) que carrega informação",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "amostragem": {
+      "id": "amostragem",
+      "definicao_curta": "processo de converter um sinal contínuo em discreto no tempo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "conversor analogico-digital": {
+      "id": "conversor analogico-digital",
+      "definicao_curta": "circuito que converte tensão/corrente analógica em valores digitais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "ruido": {
+      "id": "ruido",
+      "definicao_curta": "perturbação aleatória que afeta medições e sinais",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "filtro": {
+      "id": "filtro",
+      "definicao_curta": "técnica/circuito que atenua certas frequências e preserva outras",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "frequencia de amostragem": {
+      "id": "frequencia de amostragem",
+      "definicao_curta": "taxa com que um sinal é amostrado (Hz)",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "teorema de nyquist": {
+      "id": "teorema de nyquist",
+      "definicao_curta": "condição para amostrar sem aliasing: taxa ≥ 2× frequência máxima do sinal",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "aliasing": {
+      "id": "aliasing",
+      "definicao_curta": "distorção causada por amostragem insuficiente",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "bit": {
+      "id": "bit",
+      "definicao_curta": "unidade mínima de informação digital, com dois estados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "byte": {
+      "id": "byte",
+      "definicao_curta": "conjunto de 8 bits, comum para representar dados",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "taxa de bits": {
+      "id": "taxa de bits",
+      "definicao_curta": "quantidade de bits transmitidos por segundo",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "interdisciplinar",
+        "campo": "sinais",
+        "nivel": 2
+      }
+    },
+    "informacao": {
+      "id": "informacao",
+      "definicao_curta": "conteúdo que reduz incerteza e pode ser codificado, armazenado e transmitido",
+      "peso": {
+        "estabilidade": 0.9,
+        "confianca": 0.95
+      },
+      "origem": "nucleo_ti_fisica_v1",
+      "regiao": {
+        "nome": "ti",
+        "campo": "fundamentos",
+        "nivel": 1
+      }
+    }
+  },
+  "arestas": [
+    {
+      "de": "energia",
+      "para": "trabalho",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "energia",
+      "para": "trabalho",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "energia",
+      "para": "trabalho",
+      "tipo": "definicao",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "energia",
+      "para": "massa",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "filosofia",
+      "para": "epistemologia",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "filosofia",
+      "para": "etica",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "platao",
+      "para": "filosofia",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "aristoteles",
+      "para": "platao",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "teoria",
+      "para": "hipotese",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "relatividade",
+      "para": "energia",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "relatividade",
+      "para": "massa",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "evolucao",
+      "para": "teoria",
+      "tipo": "exemplo",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "quantica",
+      "para": "teoria",
+      "tipo": "exemplo",
+      "peso": 0.8,
+      "origem": "humano"
+    },
+    {
+      "de": "tecnologia da informacao",
+      "para": "computacao",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hardware",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "software",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sistema operacional",
+      "para": "software",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "rede de computadores",
+      "para": "tecnologia da informacao",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "banco de dados",
+      "para": "tecnologia da informacao",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "seguranca da informacao",
+      "para": "tecnologia da informacao",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "computacao em nuvem",
+      "para": "tecnologia da informacao",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cpu",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "gpu",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "memoria ram",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "armazenamento",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ssd",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hdd",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "placa mae",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "chipset",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "barramento",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pci express",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "usb",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sata",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cache",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "registrador",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "clock",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "arquitetura de computador",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "x86",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "arm",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "firmware",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "bios",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "uefi",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "periferico",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "teclado",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "mouse",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "monitor",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "fonte de alimentacao",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "transistor",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "circuito integrado",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "semicondutor",
+      "para": "hardware",
+      "tipo": "exemplo",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cpu",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "gpu",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "memoria ram",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "placa mae",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "armazenamento",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "fonte de alimentacao",
+      "para": "computador",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ssd",
+      "para": "armazenamento",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hdd",
+      "para": "armazenamento",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cache",
+      "para": "cpu",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "registrador",
+      "para": "cpu",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "bios",
+      "para": "firmware",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "uefi",
+      "para": "firmware",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "teclado",
+      "para": "periferico",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "mouse",
+      "para": "periferico",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "monitor",
+      "para": "periferico",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "circuito integrado",
+      "para": "semicondutor",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "transistor",
+      "para": "semicondutor",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "kernel",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "driver",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "processo",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "thread",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "escalonamento",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "memoria virtual",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "paginacao",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "swap",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sistema de arquivos",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "permissao",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "usuario",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "grupo",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "shell",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "terminal",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cli",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "gui",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "api",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "biblioteca",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "framework",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "compilador",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "interpretador",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "linguagem de programacao",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "python",
+      "para": "linguagem de programacao",
+      "tipo": "exemplo",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "java",
+      "para": "linguagem de programacao",
+      "tipo": "exemplo",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "c",
+      "para": "linguagem de programacao",
+      "tipo": "exemplo",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "javascript",
+      "para": "linguagem de programacao",
+      "tipo": "exemplo",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "typescript",
+      "para": "linguagem de programacao",
+      "tipo": "exemplo",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "git",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "repositorio",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "commit",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "branch",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "merge",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "teste de software",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "depuracao",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "log",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "excecao",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "container",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "docker",
+      "para": "devops",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "imagem docker",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "orquestracao",
+      "para": "software",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "kubernetes",
+      "para": "devops",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "kernel",
+      "para": "sistema operacional",
+      "tipo": "parte_de",
+      "peso": 0.95,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "driver",
+      "para": "sistema operacional",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "processo",
+      "para": "sistema operacional",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "thread",
+      "para": "processo",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "escalonamento",
+      "para": "kernel",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "memoria virtual",
+      "para": "kernel",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "paginacao",
+      "para": "memoria virtual",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "swap",
+      "para": "memoria virtual",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sistema de arquivos",
+      "para": "kernel",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "permissao",
+      "para": "sistema operacional",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "usuario",
+      "para": "permissao",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "grupo",
+      "para": "permissao",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "shell",
+      "para": "cli",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "terminal",
+      "para": "cli",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "biblioteca",
+      "para": "api",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "framework",
+      "para": "biblioteca",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "compilador",
+      "para": "linguagem de programacao",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "interpretador",
+      "para": "linguagem de programacao",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "git",
+      "para": "controle de versao",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "commit",
+      "para": "git",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "branch",
+      "para": "git",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "merge",
+      "para": "git",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "imagem docker",
+      "para": "docker",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "container",
+      "para": "docker",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "kubernetes",
+      "para": "orquestracao",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "rede de computadores",
+      "para": "modelo osi",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "rede de computadores",
+      "para": "tcp ip",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pacote",
+      "para": "ip",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "quadro",
+      "para": "ethernet",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ipv4",
+      "para": "ip",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ipv6",
+      "para": "ip",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "endereco ip",
+      "para": "ip",
+      "tipo": "definicao",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "endereco mac",
+      "para": "rede de computadores",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "roteador",
+      "para": "ip",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "switch",
+      "para": "rede de computadores",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "firewall",
+      "para": "seguranca da informacao",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "nat",
+      "para": "roteador",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "dns",
+      "para": "nome de dominio",
+      "tipo": "definicao",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "dns",
+      "para": "ip",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "dhcp",
+      "para": "endereco ip",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "porta",
+      "para": "socket",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "tcp",
+      "para": "tcp ip",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "udp",
+      "para": "tcp ip",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "http",
+      "para": "tcp",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "https",
+      "para": "http",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "https",
+      "para": "tls",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "wifi",
+      "para": "rede de computadores",
+      "tipo": "exemplo",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ethernet",
+      "para": "rede de computadores",
+      "tipo": "exemplo",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "vpn",
+      "para": "tls",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sub-rede",
+      "para": "endereco ip",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cidr",
+      "para": "sub-rede",
+      "tipo": "definicao",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "gateway",
+      "para": "roteador",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "arp",
+      "para": "endereco mac",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "api rest",
+      "para": "http",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "json",
+      "para": "api rest",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "websocket",
+      "para": "tcp",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "banco de dados",
+      "para": "sgbd",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sql",
+      "para": "banco de dados",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "nosql",
+      "para": "banco de dados",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "tabela",
+      "para": "banco de dados",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "registro",
+      "para": "tabela",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "coluna",
+      "para": "tabela",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "chave primaria",
+      "para": "tabela",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "chave estrangeira",
+      "para": "tabela",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "indice",
+      "para": "banco de dados",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "consulta",
+      "para": "sql",
+      "tipo": "parte_de",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "join",
+      "para": "sql",
+      "tipo": "parte_de",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "transacao",
+      "para": "banco de dados",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "acid",
+      "para": "transacao",
+      "tipo": "definicao",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "backup",
+      "para": "banco de dados",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "replicacao",
+      "para": "banco de dados",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sharding",
+      "para": "banco de dados",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "postgresql",
+      "para": "sgbd",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "mysql",
+      "para": "sgbd",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sqlite",
+      "para": "sgbd",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "mongodb",
+      "para": "nosql",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "redis",
+      "para": "nosql",
+      "tipo": "exemplo",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "redis",
+      "para": "cache",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "seguranca da informacao",
+      "para": "confidencialidade",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "seguranca da informacao",
+      "para": "integridade",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "seguranca da informacao",
+      "para": "disponibilidade",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "autenticacao",
+      "para": "controle de acesso",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "autorizacao",
+      "para": "controle de acesso",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "criptografia",
+      "para": "seguranca da informacao",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "aes",
+      "para": "chave simetrica",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "rsa",
+      "para": "chave assimetrica",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ecc",
+      "para": "chave assimetrica",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hash",
+      "para": "criptografia",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sha256",
+      "para": "hash",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "salt",
+      "para": "hash",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "assinatura digital",
+      "para": "chave assimetrica",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "certificado digital",
+      "para": "assinatura digital",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pki",
+      "para": "certificado digital",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "jwt",
+      "para": "assinatura digital",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "oauth2",
+      "para": "autorizacao",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "phishing",
+      "para": "engenharia social",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "virus",
+      "para": "malware",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ransomware",
+      "para": "malware",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "exploit",
+      "para": "vulnerabilidade",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "patch",
+      "para": "vulnerabilidade",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "zero day",
+      "para": "vulnerabilidade",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "2fa",
+      "para": "autenticacao",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "controle de versao",
+      "para": "desenvolvimento de software",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "devops",
+      "para": "desenvolvimento de software",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "cicd",
+      "para": "devops",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pipeline",
+      "para": "cicd",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "observabilidade",
+      "para": "devops",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "monitoramento",
+      "para": "observabilidade",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "virtualizacao",
+      "para": "computacao em nuvem",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "maquina virtual",
+      "para": "virtualizacao",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hypervisor",
+      "para": "virtualizacao",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "iaas",
+      "para": "computacao em nuvem",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "paas",
+      "para": "computacao em nuvem",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "saas",
+      "para": "computacao em nuvem",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "serverless",
+      "para": "computacao em nuvem",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "balanceador de carga",
+      "para": "alta disponibilidade",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "escalabilidade",
+      "para": "computacao em nuvem",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "alta disponibilidade",
+      "para": "computacao em nuvem",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "fisica",
+      "para": "grandeza fisica",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "unidade",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "vetor",
+      "para": "matematica",
+      "tipo": "parte_de",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "derivada",
+      "para": "calculo",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "derivada",
+      "para": "calculo",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "integral",
+      "para": "calculo",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "metro",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "metro",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "segundo",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "segundo",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "quilograma",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "quilograma",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "newton",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "newton",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "joule",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "joule",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "watt",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "watt",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pascal",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pascal",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hertz",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "hertz",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "coulomb",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "coulomb",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "volt",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "volt",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ohm",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ohm",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "tesla",
+      "para": "unidade",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "tesla",
+      "para": "sistema internacional",
+      "tipo": "parte_de",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "massa",
+      "para": "quilograma",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "forca",
+      "para": "newton",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "energia",
+      "para": "joule",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "potencia",
+      "para": "watt",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "trabalho",
+      "para": "energia",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "energia cinetica",
+      "para": "energia",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "energia potencial",
+      "para": "energia",
+      "tipo": "parte_de",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "peso",
+      "para": "forca",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "velocidade",
+      "para": "vetor",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "forca",
+      "para": "vetor",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "aceleracao",
+      "para": "vetor",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "quantidade de movimento",
+      "para": "massa",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "quantidade de movimento",
+      "para": "velocidade",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "impulso",
+      "para": "forca",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "torque",
+      "para": "forca",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "momento angular",
+      "para": "torque",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "atrito",
+      "para": "forca",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "mola",
+      "para": "forca",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "oscilacao",
+      "para": "mola",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "frequencia",
+      "para": "hertz",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "onda",
+      "para": "frequencia",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "onda",
+      "para": "comprimento de onda",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "onda",
+      "para": "amplitude",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "som",
+      "para": "onda",
+      "tipo": "exemplo",
+      "peso": 0.9,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "luz",
+      "para": "onda",
+      "tipo": "exemplo",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "luz",
+      "para": "espectro eletromagnetico",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "reflexao",
+      "para": "onda",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "refracao",
+      "para": "onda",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "interferencia",
+      "para": "onda",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "difracao",
+      "para": "onda",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "polarizacao",
+      "para": "luz",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "temperatura",
+      "para": "calor",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "calor",
+      "para": "energia",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "energia interna",
+      "para": "energia",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "entropia",
+      "para": "segunda lei da termodinamica",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pressao",
+      "para": "pascal",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "pressao",
+      "para": "forca",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "gas ideal",
+      "para": "pressao",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "gas ideal",
+      "para": "temperatura",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "primeira lei da termodinamica",
+      "para": "energia interna",
+      "tipo": "definicao",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "segunda lei da termodinamica",
+      "para": "entropia",
+      "tipo": "definicao",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "equilibrio termico",
+      "para": "temperatura",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "maquina termica",
+      "para": "calor",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "eficiencia",
+      "para": "maquina termica",
+      "tipo": "parte_de",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "carga eletrica",
+      "para": "coulomb",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "tensao",
+      "para": "volt",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "resistencia eletrica",
+      "para": "ohm",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "corrente eletrica",
+      "para": "coulomb",
+      "tipo": "relacionado",
+      "peso": 0.5,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "campo magnetico",
+      "para": "tesla",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "lei de ohm",
+      "para": "tensao",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "lei de ohm",
+      "para": "corrente eletrica",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "lei de ohm",
+      "para": "resistencia eletrica",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "campo eletrico",
+      "para": "carga eletrica",
+      "tipo": "relacionado",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "potencial eletrico",
+      "para": "campo eletrico",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "campo magnetico",
+      "para": "corrente eletrica",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "forca de lorentz",
+      "para": "campo eletrico",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "forca de lorentz",
+      "para": "campo magnetico",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "onda eletromagnetica",
+      "para": "luz",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "maxwell",
+      "para": "onda eletromagnetica",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "circuito",
+      "para": "corrente eletrica",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "condutor",
+      "para": "corrente eletrica",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "isolante",
+      "para": "corrente eletrica",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "relatividade restrita",
+      "para": "espaco-tempo",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "dilatacao do tempo",
+      "para": "relatividade restrita",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "contracao do comprimento",
+      "para": "relatividade restrita",
+      "tipo": "parte_de",
+      "peso": 0.8,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "velocidade da luz",
+      "para": "luz",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "equivalencia massa-energia",
+      "para": "energia",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "equivalencia massa-energia",
+      "para": "massa",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "relatividade geral",
+      "para": "gravidade",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "campo gravitacional",
+      "para": "gravidade",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "buraco negro",
+      "para": "relatividade geral",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "horizonte de eventos",
+      "para": "buraco negro",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "onda gravitacional",
+      "para": "relatividade geral",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "mecanica quantica",
+      "para": "quantizacao",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "foton",
+      "para": "luz",
+      "tipo": "relacionado",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "dualidade onda-particula",
+      "para": "mecanica quantica",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "funcao de onda",
+      "para": "mecanica quantica",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "superposicao",
+      "para": "mecanica quantica",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "medicao",
+      "para": "mecanica quantica",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "principio da incerteza",
+      "para": "mecanica quantica",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "spin",
+      "para": "mecanica quantica",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "nivel de energia",
+      "para": "mecanica quantica",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "atomo",
+      "para": "mecanica quantica",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "eletron",
+      "para": "atomo",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "proton",
+      "para": "atomo",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "neutron",
+      "para": "atomo",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "funcao de onda",
+      "para": "probabilidade",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sensor",
+      "para": "grandeza fisica",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sensor",
+      "para": "hardware",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "sinal",
+      "para": "informacao",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "bit",
+      "para": "informacao",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "byte",
+      "para": "bit",
+      "tipo": "parte_de",
+      "peso": 0.85,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "conversor analogico-digital",
+      "para": "hardware",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "amostragem",
+      "para": "sinal",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "frequencia de amostragem",
+      "para": "amostragem",
+      "tipo": "parte_de",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "frequencia de amostragem",
+      "para": "hertz",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "teorema de nyquist",
+      "para": "frequencia de amostragem",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "aliasing",
+      "para": "amostragem",
+      "tipo": "relacionado",
+      "peso": 0.75,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "ruido",
+      "para": "sinal",
+      "tipo": "relacionado",
+      "peso": 0.7,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "filtro",
+      "para": "frequencia",
+      "tipo": "relacionado",
+      "peso": 0.6,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "taxa de bits",
+      "para": "byte",
+      "tipo": "relacionado",
+      "peso": 0.55,
+      "origem": "nucleo_ti_fisica_v1"
+    },
+    {
+      "de": "taxa de bits",
+      "para": "largura de banda",
+      "tipo": "relacionado",
+      "peso": 0.65,
+      "origem": "nucleo_ti_fisica_v1"
+    }
+  ]
+}

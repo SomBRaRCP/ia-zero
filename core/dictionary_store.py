@@ -19,11 +19,26 @@ class DictionaryStore:
     def lookup(self, word: str) -> Optional[Dict[str, Any]]:
         return self.data.get(normalize(word))
 
-    def add(self, word: str, classe: str, definicao: str, relacoes: list[str] | None = None):
+    def save(self):
+        self.path.write_text(
+            json.dumps(self.data, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
+    def add(
+        self,
+        word: str,
+        classe: str,
+        definicao: str,
+        relacoes: list[str] | None = None,
+        *,
+        save: bool = True,
+    ):
         self.data[normalize(word)] = {
             "forma": word.strip(),
             "classe": classe.strip(),
             "definicao": definicao.strip(),
             "relacoes": relacoes or []
         }
-        self.path.write_text(json.dumps(self.data, ensure_ascii=False, indent=2), encoding="utf-8")
+        if save:
+            self.save()

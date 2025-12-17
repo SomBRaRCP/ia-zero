@@ -1,2 +1,21 @@
 # requirements.txt
-# (vazio por enquanto; Python puro)
+# Dependências do projeto Antonia (ia_zero)
+
+# PyPDF2 - Para importar dicionário de PDF
+PyPDF2>=3.0.0
+
+# HuggingFace - Para download e uso do DeepSeek-Coder-V2-Lite
+transformers>=4.40.0
+torch>=2.0.0
+accelerate>=0.27.0
+huggingface_hub>=0.20.0
+
+# NumPy - Para RWKV e processamento
+numpy>=1.24.0
+
+# Safetensors - Formato de checkpoints
+safetensors>=0.4.0
+
+# API e servidor web
+fastapi>=0.110.0
+uvicorn[standard]>=0.23.0

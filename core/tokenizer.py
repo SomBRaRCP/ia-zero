@@ -3,7 +3,7 @@ import re
 STOPWORDS = {
     "o","a","os","as","um","uma","uns","umas","de","da","do","das","dos",
     "e","é","ser","em","no","na","nos","nas","por","para","com","que",
-    "qual","quais","como","porque","porquê","por","pra","isso","isto","aquele",
+    "qual","quais","como","porque","porquê","por","pra","onde","aonde","fica","esta","ta","isso","isto","aquele",
     "essa","esse","eu","você","vc","me","te","se","nao","não"
 }
 

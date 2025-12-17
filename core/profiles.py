@@ -30,7 +30,7 @@ PROFILES: Dict[str, Profile] = {
             modo_trq_duro=True,
             top_k=4,
             max_chars=900,
-            fontes_permitidas={"dictionary", "kb", "subsignals"}
+            fontes_permitidas={"dictionary", "kb"}
         ),
         prompt=ProfilePrompt(tom="analitico", rigor="alto", especulacao="baixa"),
         estado_base={"estado": "R", "ressonancia": 0.80, "curvatura_trq": 1.20, "ajuste_trq": "rigor"},
@@ -42,7 +42,7 @@ PROFILES: Dict[str, Profile] = {
             modo_trq_duro=False,
             top_k=8,
             max_chars=1600,
-            fontes_permitidas={"dictionary", "kb", "episodic", "subsignals"}
+            fontes_permitidas={"dictionary", "kb", "episodic"}
         ),
         prompt=ProfilePrompt(tom="exploratorio", rigor="medio", especulacao="media"),
         estado_base={"estado": "A", "ressonancia": 0.60, "curvatura_trq": 0.80, "ajuste_trq": "explorar"},
@@ -54,7 +54,7 @@ PROFILES: Dict[str, Profile] = {
             modo_trq_duro=False,
             top_k=6,
             max_chars=1400,
-            fontes_permitidas={"dictionary", "kb", "episodic", "subsignals"}
+            fontes_permitidas={"dictionary", "kb", "episodic"}
         ),
         prompt=ProfilePrompt(tom="conversacional", rigor="baixo", especulacao="media"),
         estado_base={"estado": "S", "ressonancia": 0.50, "curvatura_trq": 0.40, "ajuste_trq": "dialogo"},
